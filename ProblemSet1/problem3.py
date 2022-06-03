@@ -11,26 +11,25 @@
 # Note: This problem may be challenging. We encourage you to work smart. If you've spent more than a few hours on this problem, 
 # we suggest that you move on to a different part of the course. If you have time, come back to this problem after you've had a break and cleared your head.
 
+import string
+
 def find_longest_substring_in_string(s):
-    substring_count = 0
-    list_of_strings = {0: s[0]}
-    temp = ""
-    for i in range(len(s)):
-        temp = temp + s[i]
-        try:
-            if ord(s[i]) > ord(s[i+1]):
-                list_of_strings[substring_count] = temp
-                temp = ""
-                substring_count += 1
+    temp = substring = s[0]
+    list_of_substrings = []
+    longest_substring = 0
 
-        except IndexError:
-            list_of_strings[substring_count] = temp
+    for char in s[1:]:
+        if string.ascii_lowercase.index(temp) <= string.ascii_lowercase.index(char):
+            substring += char
+            temp = char
+        else:
+            list_of_substrings.append(substring)
+            if len(substring) > len(list_of_substrings[longest_substring]):
+                longest_substring = list_of_substrings.index(substring)
+            substring = temp = char
 
-    list_of_lengths = []
-    for i in list_of_strings:
-        list_of_lengths.append(len(list_of_strings[i]))
-    
-    return list_of_strings[list_of_lengths.index(max(list_of_lengths))]
+    list_of_substrings.append(substring)
+    return list_of_substrings[longest_substring]
 
 def main():
     list_of_strings = ['azcbobobegghakl', 'abcbcd']

@@ -28,7 +28,7 @@ class TestProblem1(unittest.TestCase):
         }
 
     def test_output(self):
-        msg = 'Output at index {i} does not match expected output of {output}'
+        msg = 'Output at index {i} does not match expected output of \'{output}\''
         for i in self.test_data.keys():
             result = func(self.test_data[i]['input'])
             expected_output = self.test_data[i]['output']
