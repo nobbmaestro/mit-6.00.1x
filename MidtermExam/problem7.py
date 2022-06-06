@@ -1,5 +1,5 @@
 # Problem 7
-
+#
 # Write a function called score that meets the specifications below.
 
 def dummy_f(a, b):
