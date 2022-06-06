@@ -47,11 +47,12 @@ Assume the statement s[1024] = 3 does not produce an error message. This implies
 ## Problem 2-5
 Consider the code:
 
->L = [1,2,3]<br>
-d = {'a': 'b'}<br>
-def f(x):<br>
-    return 3<br>
-
+```python
+L = [1,2,3]
+d = {'a': 'b'}
+def f(x):
+    return 3
+```
 Which of the following does NOT cause an exception to be thrown?
 1. print(L[3])
 2. print(d['b'])
@@ -65,10 +66,12 @@ Which of the following does NOT cause an exception to be thrown?
 ## Problem 2-6
 Examine the following code snippet:
 
->stuff  = _____<br>
-for thing in stuff:<br>
-    if thing == 'iQ':<br>
-       print("Found it")<br>
+```python
+stuff  = _____
+for thing in stuff:
+    if thing == 'iQ':
+       print("Found it")
+```
 
 Select all the values of the variable "stuff" that will make the code print "Found it".
 1. ["iBoy", "iGirl", "iQ", "iC","iPaid","iPad"]
@@ -84,12 +87,15 @@ Select all the values of the variable "stuff" that will make the code print "Fou
 ## Problem 2-7
 The following Python code is supposed to compute the square of an integer by using successive additions.
 
->def Square(x):<br>
-    return SquareHelper(abs(x), abs(x))<br><br>
-def SquareHelper(n, x):<br>
-    if n == 0:<br>
-        return 0<br>
-    return SquareHelper(n-1, x) + x<br>
+```python
+def Square(x):
+    return SquareHelper(abs(x), abs(x))
+
+def SquareHelper(n, x):
+    if n == 0:
+        return 0
+    return SquareHelper(n-1, x) + x
+```
 
 Not considering recursion depth limitations, what is wrong with this implementation of procedure Square? Check all that apply.
 1. It is going to return a wrong value.
