@@ -9,9 +9,12 @@ Suppose x = "pi" and y = "pie". The line of code x, y = y, x will swap the value
 
 ## Problem 1-2
 Suppose x is an integer in the following code:
->def f(x):
+
+```python
+def f(x):
     while x > 3:
         f(x+1)
+```
 
 ### Answer: 
 > False
@@ -28,9 +31,12 @@ Suppose you have two different functions that each assign a variable called x. M
 
 ## Problem 1-5
 The following code will enter an infinite loop for all values of i and j.
->while i >= 0:
+
+```python
+while i >= 0:
     while j >= 0:
         print(i, j)
+```
 
 ### Answer: 
 > False
@@ -53,11 +59,15 @@ A program that keeps running and does not stop is an example of a syntax error.
 
 ## Problem 1-9
 Consider the following function.
->def f(x):
+
+```python
+def f(x):
     a = []
     while x > 0:
         a.append(x)
         f(x-1)
+```
+
 ### Answer: 
 > True
 
