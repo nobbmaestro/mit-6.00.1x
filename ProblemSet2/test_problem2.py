@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet2 import minMonthlyPayment as func
 
-class TestProblem1(unittest.TestCase):
+class TestProblem2(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:   {'input': [3329,   0.2],     'output': 310},

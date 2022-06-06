@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet2 import minMonthlyPaymentBisect as func
 
-class TestProblem1(unittest.TestCase):
+class TestProblem3(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:   {'input': [320000, 0.20], 'output': 29157.09},

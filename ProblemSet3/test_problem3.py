@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet3 import getAvailableLetters as func
 
-class TestProblem1(unittest.TestCase):
+class TestProblem3(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {

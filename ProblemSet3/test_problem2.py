@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet3 import getGuessedWord as func
 
-class TestProblem1(unittest.TestCase):
+class TestProblem2(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {
