@@ -30,7 +30,7 @@ WORDLIST_FILENAME = "C:/Users/Ana/words.txt"
 
 The file ps3_hangman.py has a number of already implemented functions you can use while writing up your solution. You can ignore the code between the following comments, though you should read and understand how to use each helper function by reading the docstrings:
  
-# -----------------------------------
+```python
 # Helper code
 # You don't need to understand this helper code,
 # but you will have to know how to use the functions
@@ -39,7 +39,7 @@ The file ps3_hangman.py has a number of already implemented functions you can us
     .
     .
 # (end of helper code)
-# -----------------------------------
+```
    
 You will want to do all of your coding for this problem within this file as well because you will be writing a program that depends on each function you write.
 
