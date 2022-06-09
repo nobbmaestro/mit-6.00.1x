@@ -40,6 +40,7 @@ We will treat uppercase and lowercase letters individually, so that uppercase le
 | 'abcdef'        |    2      |  'cdefgh'        |
 | 'Hello, World!' |    5      |  'Mjqqt, Btwqi!' |
 | ''              | any value |  ''              |
+
 We implemented for you two helper functions: load_words and is_word. You may use these in your solution and you do not need to understand them completely, but should read the associated comments. You should read and understand the helper code in the rest of the file and use it to guide your solutions.
 
 ### Getting Started
