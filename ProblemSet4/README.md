@@ -1,5 +1,6 @@
-# Introduction
+# Problem Set 4
 
+## Introduction
 In this problem set, you'll implement two versions of a wordgame!
 
 Don't be intimidated by the length of this problem set. There is a lot of reading, but it can be done with a reasonable amount of thinking and coding. It'll be helpful if you start this problem set a few days before it is due!
