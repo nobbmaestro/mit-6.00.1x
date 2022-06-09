@@ -2,7 +2,7 @@ import unittest
 
 from MidtermExam import score as func
 
-class TestProblem3(unittest.TestCase):
+class TestProblem7(unittest.TestCase):
     def setUp(self):
         self.dummy_f = {
             'sum':  lambda a, b: a+b,

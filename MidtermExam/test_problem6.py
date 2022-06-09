@@ -2,7 +2,7 @@ import unittest
 
 from MidtermExam import flatten as func
 
-class TestProblem3(unittest.TestCase):
+class TestProblem6(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {
