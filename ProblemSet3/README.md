@@ -15,7 +15,7 @@ For this problem, you will need the code files ps3_hangman.py and words.txt. Rig
 
 The code we have given you loads in a list of words from a file. If everything is working okay, after a small delay, you should see the following printed out:
 
-```python
+```
 > Loading word list from file...
 55909 words loaded.
 ```
