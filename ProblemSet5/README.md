@@ -44,7 +44,7 @@ We will treat uppercase and lowercase letters individually, so that uppercase le
 We implemented for you two helper functions: load_words and is_word. You may use these in your solution and you do not need to understand them completely, but should read the associated comments. You should read and understand the helper code in the rest of the file and use it to guide your solutions.
 
 ### Getting Started
-To get started, download the [ps6.zip]{https://courses.edx.org/assets/courseware/v1/a3239690f87a97bb3be2e75b0917bf38/asset-v1:MITx+6.00.1x+1T2021+type@asset+block/ps6.zip} file. Extract it to your working directory. The files inside are:
+To get started, download the [ps6.zip](https://courses.edx.org/assets/courseware/v1/a3239690f87a97bb3be2e75b0917bf38/asset-v1:MITx+6.00.1x+1T2021+type@asset+block/ps6.zip) file. Extract it to your working directory. The files inside are:
 
 - ps6.py - a file containing three classes that you will have to implement.
 - words.txt - a file containing valid English words (should be in the same folder as your ps6..py file).
