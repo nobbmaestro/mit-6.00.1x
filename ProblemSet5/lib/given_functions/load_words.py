@@ -8,13 +8,13 @@ def load_words(file_name):
     Depending on the size of the word list, this function may
     take a while to finish.
     '''
-    print('Loading word list from file...')
+    # print('Loading word list from file...')
     # inFile: file
     in_file = open(file_name, 'r')
     # line: string
     line = in_file.readline()
     # word_list: list of strings
     word_list = line.split()
-    print('  ', len(word_list), 'words loaded.')
+    # print('  ', len(word_list), 'words loaded.')
     in_file.close()
     return word_list

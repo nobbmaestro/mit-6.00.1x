@@ -2,7 +2,7 @@ import unittest
 
 from ProblemSet5 import PlaintextMessage
 
-class TestProblem1(unittest.TestCase):
+class TestProblem2(unittest.TestCase):
     def setUp(self):
         self.text = "1.hello!!"
         self.shift = 2
