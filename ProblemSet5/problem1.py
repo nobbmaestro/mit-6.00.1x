@@ -1,4 +1,4 @@
-# Problem 1 - Build the Shift Dictionary and Apply Shift
+# Problem Set 5, Problem 1 - Build the Shift Dictionary and Apply Shift
 #
 # The Message class contains methods that could be used to apply a cipher to a string, either to encrypt or to decrypt a message 
 # (since for Caesar codes this is the same action).

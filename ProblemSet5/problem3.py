@@ -1,4 +1,4 @@
-# Problem 3 - CiphertextMessage
+# Problem Set 5, Problem 3 - CiphertextMessage
 # 
 # For this problem, the graders will use our implementation of the Message and PlaintextMessage classes, so don't worry if you did 
 # not get the previous parts correct.
