@@ -1,4 +1,4 @@
-# Problem 3 - Printing Out all Available Letters
+# Problem Set 3, Problem 3 - Printing Out all Available Letters
 #
 # Next, implement the function getAvailableLetters that takes in one parameter - a list of letters, 
 # lettersGuessed. This function returns a string that is comprised of lowercase English letters - all 

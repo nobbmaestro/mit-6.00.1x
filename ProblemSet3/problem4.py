@@ -1,4 +1,4 @@
-# Problem 4 - The Game
+# Problem Set 3, Problem 4 - The Game
 #
 # Now you will implement the function hangman, which takes one parameter - the secretWord the user is to guess. 
 # This starts up an interactive game of Hangman between the user and the computer. Be sure you take advantage of 

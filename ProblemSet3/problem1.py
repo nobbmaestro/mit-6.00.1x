@@ -1,4 +1,4 @@
-# Problem 1 - Is the Word Guessed
+# Problem Set 3, Problem 1 - Is the Word Guessed
 #
 # Please read the Hangman Introduction before starting this problem. We'll start by writing 3 simple functions that 
 # will help us easily code the Hangman problem. First, implement the function isWordGuessed that takes in two 

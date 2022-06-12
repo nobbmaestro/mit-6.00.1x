@@ -1,4 +1,4 @@
-# Problem 2 - Getting the User's Guess
+# Problem Set 3, Problem 2 - Getting the User's Guess
 #
 # Next, implement the function getGuessedWord that takes in two parameters - a string, secretWord, 
 # and a list of letters, lettersGuessed. This function returns a string that is comprised of letters and 
