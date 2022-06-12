@@ -1,8 +1,10 @@
+# Problem Set 4, Problem 4
+ 
 import unittest
 
 from ProblemSet4 import calculateHandlen as func
 
-class TestProblem3(unittest.TestCase):
+class TestProblem4(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0:  {

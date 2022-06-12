@@ -1,4 +1,4 @@
-# Problem 3 - Valid Words
+# Problem Set 4, Problem 3 - Valid Words
 #
 # At this point, we have written code to generate a random hand and display that hand to the user. We can also 
 # ask the user for a word (Python's input) and score the word (using your getWordScore). However, at this point 

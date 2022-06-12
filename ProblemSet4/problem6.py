@@ -1,4 +1,4 @@
-# Problem 6 - Playing a Game
+# Problem Set 4, Problem 6 - Playing a Game
 #
 # A game consists of playing multiple hands. We need to implement one final function to complete our word-game program.
 # Write the code that implements the playGame function. You should remove the code that is currently uncommented in the 

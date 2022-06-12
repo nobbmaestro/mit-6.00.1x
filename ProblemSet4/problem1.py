@@ -1,4 +1,4 @@
-# Problem 1 - Word Scores
+# Problem Set 4, Problem 1 - Word Scores
 #
 # The first step is to implement some code that allows us to calculate the score for a single word. The function 
 # getWordScore should accept as input a string of lowercase letters (a word) and return the integer score for that 

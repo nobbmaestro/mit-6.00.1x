@@ -1,4 +1,4 @@
-# Problem 4 - Hand Length
+# Problem Set 4, Problem 4 - Hand Length
 #
 # We are now ready to begin writing the code that interacts with the player. We'll be implementing the playHand function.
 # This function allows the user to play out a single hand. First, though, you'll need to implement the helper 

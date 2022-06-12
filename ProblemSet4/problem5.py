@@ -1,4 +1,4 @@
-# Problem 5 - Playing a Hand
+# Problem Set 4, Problem 5 - Playing a Hand
 # 
 # In ps4a.py, note that in the function playHand, there is a bunch of pseudocode. This pseudocode is provided to help
 # guide you in writing your function. Check out the Why Pseudocode? resource to learn more about the What and Why of

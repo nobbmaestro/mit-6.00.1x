@@ -1,4 +1,4 @@
-# Problem 2 - Dealing with Hands
+# Problem Set 4, Problem 2 - Dealing with Hands
 #
 # **Please read this problem entirely!!** The majority of this problem consists of learning how to read code, which is an 
 # incredibly useful and important skill. At the end, you will implement a short function. Be sure to take your time on 
