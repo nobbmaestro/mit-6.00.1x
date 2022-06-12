@@ -1,4 +1,4 @@
-# Problem 3
+# Problem Set 1, Problem 3
 #
 # Assume s is a string of lower case characters.
 #
