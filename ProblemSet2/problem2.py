@@ -1,4 +1,4 @@
-# Problem 2 - Paying Debt Off in a Year
+# Problem Set 2, Problem 2 - Paying Debt Off in a Year
 #
 # Now write a program that calculates the minimum fixed monthly payment needed in order pay off a credit 
 # card balance within 12 months. By a fixed monthly payment, we mean a single number which does not change 
