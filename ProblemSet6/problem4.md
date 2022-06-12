@@ -1,4 +1,4 @@
-# Problem 4
+# Problem Set 6, Problem 4
 Select the correct option from list:
 - O(1)
 - O(log(n))

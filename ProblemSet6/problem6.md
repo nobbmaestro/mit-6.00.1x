@@ -1,4 +1,4 @@
-# Problem 6
+# Problem Set 6, Problem 6
 
 ## Problem 6-1
 Answer the questions below based on the following sorting function. If it helps, you may paste the code in your programming environment. Study the output to make sure you understand the way it sorts.

@@ -1,4 +1,4 @@
-# Problem 3
+# Problem Set 6, Problem 3
 For each of the following expressions, select the order of growth class that best describes it from the following list:  
 - O(1)
 - O(log(n))
