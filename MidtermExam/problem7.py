@@ -1,4 +1,4 @@
-# Problem 7
+# Midterm Exam, Problem 7
 #
 # Write a function called score that meets the specifications below.
 

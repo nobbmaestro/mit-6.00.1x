@@ -1,3 +1,5 @@
+# Midterm Exam, Problem 3
+
 import unittest
 
 from MidtermExam import twoQuadratics as func

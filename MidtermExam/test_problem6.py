@@ -1,3 +1,5 @@
+# Midterm Exam, Problem 6
+
 import unittest
 
 from MidtermExam import flatten as func

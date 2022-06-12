@@ -1,4 +1,4 @@
-# Problem 4
+# Midterm Exam, Problem 4
 #
 # Write a Python function that returns the sublist of strings in aList that contain fewer than 4 characters. 
 # For example, if aList = ["apple", "cat", "dog", "banana"], your function should return: ["cat", "dog"]

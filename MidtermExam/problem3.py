@@ -1,4 +1,4 @@
-# Problem 3
+# Midterm Exam, Problem 3
 #
 # Write a Python function, twoQuadratics, that takes in two sets of coefficients and x-values and prints the 
 # sum of the results of evaluating two quadratic equations. It does not do anything else. That is, you should 
