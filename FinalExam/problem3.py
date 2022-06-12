@@ -1,4 +1,4 @@
-# Problem 3
+# Final Exam, Problem 3
 # 
 # McDonald’s sells Chicken McNuggets in packages of 6, 9 or 20 McNuggets. Thus, it is possible, for example, to buy exactly 
 # 15 McNuggets (with one package of 6 and a second package of 9), but it is not possible to buy exactly 16 McNuggets, since 

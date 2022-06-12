@@ -1,4 +1,4 @@
-# Problem 2
+# Final Exam, Problem 2
 
 ## Problem 2-1
 You have following class hierarchy:

@@ -1,8 +1,10 @@
+# Final Exam, Problem 4
+
 import unittest
 
 from FinalExam import primes_list as func
 
-class TestProblem3(unittest.TestCase):
+class TestProblem4(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0: {'input': 2,   'output': [2]},

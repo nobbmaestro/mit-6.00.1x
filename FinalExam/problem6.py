@@ -1,4 +1,4 @@
-# Problem 6
+# Final Exam, Problem 6
 #
 # In this problem, you will implement a class according to the specifications in the template file usresident.py. 
 # The file contains a Person class similar to what you have seen in lecture and a USResident class (a subclass of Person). 

@@ -1,8 +1,10 @@
+# Final Exam, Problem 7
+
 import unittest
 
 from FinalExam import myDict
 
-class TestProblem3(unittest.TestCase):
+class TestProblem7(unittest.TestCase):
     def setUp(self):
         pass
 

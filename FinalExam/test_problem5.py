@@ -1,8 +1,10 @@
+# Final Exam, Problem 5
+
 import unittest
 
 from FinalExam import cipher as func
 
-class TestProblem3(unittest.TestCase):
+class TestProblem5(unittest.TestCase):
     def setUp(self):
         self.test_data = {
             0: {

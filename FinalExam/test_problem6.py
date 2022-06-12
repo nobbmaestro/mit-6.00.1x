@@ -1,8 +1,10 @@
+# Final Exam, Problem 6
+
 import unittest
 
 from FinalExam import USResident
 
-class TestProblem3(unittest.TestCase):
+class TestProblem6(unittest.TestCase):
     def setUp(self):
         pass
 

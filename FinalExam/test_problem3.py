@@ -1,3 +1,5 @@
+# Final Exam, Problem 3
+
 import unittest
 
 from FinalExam import McNuggets as func
