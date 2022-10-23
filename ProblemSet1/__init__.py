@@ -1,4 +1,3 @@
-# pylint: disable:C0103
 """Problem Set 1 imports."""
 from .problem1 import count_vowels
 from .problem2 import bob_in_string_count

@@ -1,6 +1,7 @@
 # Problem Set 3
 
 ## Introduction
+
 Note: Do not be intimidated by this problem! It's actually easier than it looks. We will 'scaffold' this problem, guiding you through the creation of helper functions before you implement the actual game.
 
 For this problem, you will implement a variation of the classic wordgame Hangman. For those of you who are unfamiliar with the rules, you may read all about it [here](https://en.wikipedia.org/wiki/Hangman_(game)). In this problem, the second player will always be the computer, who will be picking a word at random.
@@ -15,17 +16,17 @@ For this problem, you will need the code files ps3_hangman.py and words.txt. Rig
 
 The code we have given you loads in a list of words from a file. If everything is working okay, after a small delay, you should see the following printed out:
 
-```
+```sh
 > Loading word list from file...
 55909 words loaded.
 ```
 
 If you see an IOError instead (e.g., "No such file or directory"), you should change the value of the WORDLIST_FILENAME constant (defined near the top of the file) to the **complete** pathname for the file words.txt (This will vary based on where you saved the file). Windows users, change the backslashes to forward slashes, like below.
 
-For example, if you saved ps3_hangman.py and words.txt in the directory "C:/Users/Ana/" change the line: 
+For example, if you saved ps3_hangman.py and words.txt in the directory "C:/Users/Ana/" change the line:
 
 ```python
-WORDLIST_FILENAME = "words.txt"  
+WORDLIST_FILENAME = "words.txt"
 ```
 
 to something like
@@ -37,7 +38,7 @@ WORDLIST_FILENAME = "C:/Users/Ana/words.txt"
 **This folder will vary depending on where you saved the files.**
 
 The file ps3_hangman.py has a number of already implemented functions you can use while writing up your solution. You can ignore the code between the following comments, though you should read and understand how to use each helper function by reading the docstrings:
- 
+
 ```python
 # Helper code
 # You don't need to understand this helper code,
@@ -48,10 +49,11 @@ The file ps3_hangman.py has a number of already implemented functions you can us
     .
 # (end of helper code)
 ```
-   
+
 You will want to do all of your coding for this problem within this file as well because you will be writing a program that depends on each function you write.
 
 ### Requirements
+
 Here are the requirements for your game:
 
 1. The computer must select a word at random from the list of available words that was provided in words.txt. The functions for loading the word list and selecting a random word have already been provided for you in ps3_hangman.py.

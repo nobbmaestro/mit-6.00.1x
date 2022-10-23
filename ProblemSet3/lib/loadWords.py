@@ -1,9 +1,13 @@
-WORDLIST_FILENAME = "ProblemSet3/lib/given_functions/words.txt"
+"""LoadWords."""
 
+WORDLIST_FILENAME = "ProblemSet3/lib/words.txt"
+
+
+# pylint: disable=C0103
 def loadWords():
     """
-    Returns a list of valid words. Words are strings of lowercase letters.
-    
+    Return a list of valid words. Words are strings of lowercase letters.
+
     Depending on the size of the word list, this function may
     take a while to finish.
     """
