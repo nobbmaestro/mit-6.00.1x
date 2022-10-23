@@ -1,13 +1,15 @@
+"""LoadWords."""
+
+
 def load_words(file_name):
-    '''
-    file_name (string): the name of the file containing 
-    the list of words to load    
-    
-    Returns: a list of valid words. Words are strings of lowercase letters.
-    
-    Depending on the size of the word list, this function may
-    take a while to finish.
-    '''
+    """Load words.
+
+    Args:
+        file_name (string): the name of the file containing the list of words to load
+
+    Returns:
+        list: a list of valid words. Words are strings of lowercase letters.
+    """
     # print('Loading word list from file...')
     # inFile: file
     in_file = open(file_name, 'r')
