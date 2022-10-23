@@ -1,37 +1,102 @@
-# Problem Set 1, Problem 3
+"""Test Problem Set 1, Problem 3."""
 
 import unittest
 
 from ProblemSet1 import find_longest_substring_in_string as func
 
+
 class TestProblem3(unittest.TestCase):
+    """Test class for Problem 3."""
+
     def setUp(self):
+        """Set up TestProblem3."""
         self.test_data = {
-            0:  {'input': 'osrqnjxoewuycxgtpqop',       'output': 'os'},
-            1:  {'input': 'hszerznztxvjpcellaalp',      'output': 'cell'},
-            2:  {'input': 'vvsppqikuiz',                'output': 'ppq'},
-            3:  {'input': 'uuzvfttdbmp',                'output': 'uuz'},
-            4:  {'input': 'huohxubxswpemtamka',         'output': 'emt'},
-            5:  {'input': 'xevsiykrtuycubsdprlbyfm',    'output': 'krtuy'},
-            6:  {'input': 'xkpeyuqsjygudakpfxuclje',    'output': 'akp'},
-            7:  {'input': 'abcdefghijklmnopqrstuvwxyz', 'output': 'abcdefghijklmnopqrstuvwxyz'},
-            8:  {'input': 'tbnjappwobsmzvxtqvilza',     'output': 'appw'},
-            9:  {'input': 'fjkaxksgstezbwjtqg',         'output': 'fjk'},
-            10: {'input': 'dxqbksvimexjeoqjbdebpgv',    'output': 'bksv'},
-            11: {'input': 'zyxwvutsrqponmlkjihgfedcba', 'output': 'z'},
-            12: {'input': 'qwpkwwnqqrnn',               'output': 'nqqr'},
-            13: {'input': 'odtaixdwvrwfqswly',          'output': 'fqsw'},
-            14: {'input': 'jwputvqfdfwwmft',            'output': 'dfww'},
-            15: {'input': 'qzbwufsccpnuv',              'output': 'ccp'},
-            16: {'input': 'vwhfmzakpsqmfvziiiakznrr',   'output': 'akps'},
-            17: {'input': 'igtegvzbvbf',                'output': 'egvz'},
-            18: {'input': 'dsspwoeosvgaa',              'output': 'eosv'},
-            19: {'input': 'oclojhhsrkstbvqxyjzpz',      'output': 'clo'},
+            0: {
+                'input': 'osrqnjxoewuycxgtpqop',
+                'output': 'os'
+            },
+            1: {
+                'input': 'hszerznztxvjpcellaalp',
+                'output': 'cell'
+            },
+            2: {
+                'input': 'vvsppqikuiz',
+                'output': 'ppq'
+            },
+            3: {
+                'input': 'uuzvfttdbmp',
+                'output': 'uuz'
+            },
+            4: {
+                'input': 'huohxubxswpemtamka',
+                'output': 'emt'
+            },
+            5: {
+                'input': 'xevsiykrtuycubsdprlbyfm',
+                'output': 'krtuy'
+            },
+            6: {
+                'input': 'xkpeyuqsjygudakpfxuclje',
+                'output': 'akp'
+            },
+            7: {
+                'input': 'abcdefghijklmnopqrstuvwxyz',
+                'output': 'abcdefghijklmnopqrstuvwxyz'
+            },
+            8: {
+                'input': 'tbnjappwobsmzvxtqvilza',
+                'output': 'appw'
+            },
+            9: {
+                'input': 'fjkaxksgstezbwjtqg',
+                'output': 'fjk'
+            },
+            10: {
+                'input': 'dxqbksvimexjeoqjbdebpgv',
+                'output': 'bksv'
+            },
+            11: {
+                'input': 'zyxwvutsrqponmlkjihgfedcba',
+                'output': 'z'
+            },
+            12: {
+                'input': 'qwpkwwnqqrnn',
+                'output': 'nqqr'
+            },
+            13: {
+                'input': 'odtaixdwvrwfqswly',
+                'output': 'fqsw'
+            },
+            14: {
+                'input': 'jwputvqfdfwwmft',
+                'output': 'dfww'
+            },
+            15: {
+                'input': 'qzbwufsccpnuv',
+                'output': 'ccp'
+            },
+            16: {
+                'input': 'vwhfmzakpsqmfvziiiakznrr',
+                'output': 'akps'
+            },
+            17: {
+                'input': 'igtegvzbvbf',
+                'output': 'egvz'
+            },
+            18: {
+                'input': 'dsspwoeosvgaa',
+                'output': 'eosv'
+            },
+            19: {
+                'input': 'oclojhhsrkstbvqxyjzpz',
+                'output': 'clo'
+            },
         }
 
     def test_output(self):
+        """Verifies Problem 3."""
         msg = 'Output at index {i} does not match expected output of \'{output}\''
-        for i in self.test_data.keys():
+        for i in self.test_data:
             result = func(self.test_data[i]['input'])
             expected_output = self.test_data[i]['output']
 
