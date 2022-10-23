@@ -1,7 +1,9 @@
+"""CompChooseWord."""
+
+
+# pylint: disable=C0103
 def compChooseWord(hand, wordList, n):
-    """
-    Given a hand and a wordList, find the word that gives 
-    the maximum value score, and return it.
+    """Given a hand and a wordList, find the word that gives the maximum value score, and return it.
 
     This word should be calculated by considering all the words
     in the wordList.
@@ -14,11 +16,12 @@ def compChooseWord(hand, wordList, n):
 
     returns: string or None
     """
-    from ProblemSet4 import isValidWord, getWordScore
+    # pylint: disable=C0415
+    from ProblemSet4 import getWordScore, isValidWord
 
     # Create a new variable to store the maximum score seen so far (initially 0)
     bestScore = 0
-    # Create a new variable to store the best word seen so far (initially None)  
+    # Create a new variable to store the best word seen so far (initially None)
     bestWord = None
     # For each word in the wordList
     for word in wordList:

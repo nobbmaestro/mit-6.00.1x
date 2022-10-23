@@ -1,9 +1,20 @@
-WORDLIST_FILENAME = "ProblemSet4/lib/given_data/words.txt"
+"""LoadWords."""
 
+WORDLIST_FILENAME = "ProblemSet4/lib/words.txt"
+
+
+# pylint: disable=C0103
+def wordList_helper(wordList):
+    """Auxiliary function for loadWords()."""
+    return list(wordList[0].split(' '))
+
+
+# pylint: disable=C0103
 def loadWords():
-    """
-    Returns a list of valid words. Words are strings of lowercase letters.
-    
+    """Return a list of valid words.
+
+    Words are strings of lowercase letters.
+
     Depending on the size of the word list, this function may
     take a while to finish.
     """
@@ -19,6 +30,3 @@ def loadWords():
     # print("  ", len(wordList), "words loaded.")
     inFile.close()
     return wordList
-
-def wordList_helper(wordList):
-    return list(wordList[0].split(' '))
