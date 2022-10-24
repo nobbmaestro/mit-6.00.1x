@@ -1,37 +1,95 @@
-# Final Exam, Problem 5
+"""Final Exam, Problem 5."""
 
 import unittest
 
 from FinalExam import cipher as func
 
+
 class TestProblem5(unittest.TestCase):
+    """Test class for Problem 5."""
+
     def setUp(self):
+        """Set up TestProblem5."""
         self.test_data = {
             0: {
-                    'input':  ["abcd", "dcba", "dab"],     
-                    'output': ({'a':'d', 'b': 'c', 'd': 'a', 'c': 'b'}, 'adc')
+                'input': ["abcd", "dcba", "dab"],
+                'output': ({
+                    'a': 'd',
+                    'b': 'c',
+                    'd': 'a',
+                    'c': 'b'
+                }, 'adc')
             },
             1: {
-                    'input':  ["alpez", "yxscu", "apple"], 
-                    'output': ({'a':'y', 'l': 'x', 'p': 's', 'e': 'c', 'z': 'u'}, 'yssxc')
+                'input': ["alpez", "yxscu", "apple"],
+                'output': ({
+                    'a': 'y',
+                    'l': 'x',
+                    'p': 's',
+                    'e': 'c',
+                    'z': 'u'
+                }, 'yssxc')
             },
             2: {
-                    'input':  ["abcmydu", "dcbazqx", "dummy"], 
-                    'output': ({'a': 'd', 'b': 'c', 'c': 'b', 'm': 'a', 'y': 'z', 'd': 'q', 'u': 'x'}, 'qxaaz'),
+                'input': ["abcmydu", "dcbazqx", "dummy"],
+                'output': ({
+                    'a': 'd',
+                    'b': 'c',
+                    'c': 'b',
+                    'm': 'a',
+                    'y': 'z',
+                    'd': 'q',
+                    'u': 'x'
+                }, 'qxaaz'),
             },
             3: {
-                    'input':  ["infalu", "dcbazq", "final"], 
-                    'output': ({'i': 'd', 'n': 'c', 'f': 'b', 'a': 'a', 'l': 'z', 'u': 'q'}, 'bdcaz')
+                'input': ["infalu", "dcbazq", "final"],
+                'output': ({
+                    'i': 'd',
+                    'n': 'c',
+                    'f': 'b',
+                    'a': 'a',
+                    'l': 'z',
+                    'u': 'q'
+                }, 'bdcaz')
             },
             4: {
-                    'input':  ["abcdefghijklmnopqrstuvwxyz", "kbqpzhfovjcudxyrgtwinlmase", "unpredictable"], 
-                    'output': ({'a': 'k', 'b': 'b', 'c': 'q', 'd': 'p', 'e': 'z', 'f': 'h', 'g': 'f', 'h': 'o', 'i': 'v', 'j': 'j', 'k': 'c', 'l': 'u', 'm': 'd', 'n': 'x', 'o': 'y', 'p': 'r', 'q': 'g', 'r': 't', 's': 'w', 't': 'i', 'u': 'n', 'v': 'l', 'w': 'm', 'x': 'a', 'y': 's', 'z': 'e'}, 'nxrtzpvqikbuz')
+                'input': ["abcdefghijklmnopqrstuvwxyz", "kbqpzhfovjcudxyrgtwinlmase", "unpredictable"],
+                'output': ({
+                    'a': 'k',
+                    'b': 'b',
+                    'c': 'q',
+                    'd': 'p',
+                    'e': 'z',
+                    'f': 'h',
+                    'g': 'f',
+                    'h': 'o',
+                    'i': 'v',
+                    'j': 'j',
+                    'k': 'c',
+                    'l': 'u',
+                    'm': 'd',
+                    'n': 'x',
+                    'o': 'y',
+                    'p': 'r',
+                    'q': 'g',
+                    'r': 't',
+                    's': 'w',
+                    't': 'i',
+                    'u': 'n',
+                    'v': 'l',
+                    'w': 'm',
+                    'x': 'a',
+                    'y': 's',
+                    'z': 'e'
+                }, 'nxrtzpvqikbuz')
             },
         }
 
     def test_output(self):
+        """Verifies Problem 5."""
         msg = 'Output at index {i} does not match expected output of \'{output}\''
-        for i in self.test_data.keys():
+        for i in self.test_data:
             arg1 = self.test_data[i]['input'][0]
             arg2 = self.test_data[i]['input'][1]
             arg3 = self.test_data[i]['input'][2]

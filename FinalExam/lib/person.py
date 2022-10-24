@@ -1,32 +1,42 @@
-class Person(object):
+"""Person."""
+
+
+# pylint: disable=C0103
+class Person:
+    """Person Class."""
+
     def __init__(self, name):
-        #create a person with name name
+        """Initialize Person."""
         self.name = name
         try:
             firstBlank = name.rindex(' ')
-            self.lastName = name[firstBlank+1:]
-        except:
+            self.lastName = name[firstBlank + 1:]
+
+        except ValueError:
             self.lastName = name
+
         self.age = None
+
     def getLastName(self):
-        #return self's last name
+        """Return last name."""
         return self.lastName
+
     def setAge(self, age):
-        #assumes age is an int greater than 0
-        #sets self's age to age (in years)
+        """Set age."""
         self.age = age
+
     def getAge(self):
-        #assumes that self's age has been set
-        #returns self's current age in years
-        if self.age == None:
+        """Return age."""
+        if self.age is None:
             raise ValueError
         return self.age
+
     def __lt__(self, other):
-        #return True if self's name is lexicographically less
-        #than other's name, and False otherwise
+        """Lt method."""
         if self.lastName == other.lastName:
             return self.name < other.name
         return self.lastName < other.lastName
+
     def __str__(self):
-        #return self's name
+        """Str method."""
         return self.name
