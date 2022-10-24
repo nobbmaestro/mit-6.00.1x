@@ -1,13 +1,17 @@
 # Midterm Exam, Problem 1
+
 True-or-False Questions
 
 ## Problem 1-1
+
 Suppose x = "pi" and y = "pie". The line of code x, y = y, x will swap the values of x and y, resulting in x = "pie" and y = "pi".
 
-### Answer: 
+### Answer
+
 > True
 
 ## Problem 1-2
+
 Suppose x is an integer in the following code:
 
 ```python
@@ -16,20 +20,28 @@ def f(x):
         f(x+1)
 ```
 
-### Answer: 
+### Answer
+
 > False
 
 ## Problem 1-3
+
 A Python program always executes every line of code written at least once.
-### Answer: 
+
+### Answer
+
 > False
 
 ## Problem 1-4
+
 Suppose you have two different functions that each assign a variable called x. Modifying x in one function means you always modify x in the other function for any x.
-### Answer: 
+
+### Answer
+
 > False
 
 ## Problem 1-5
+
 The following code will enter an infinite loop for all values of i and j.
 
 ```python
@@ -38,26 +50,36 @@ while i >= 0:
         print(i, j)
 ```
 
-### Answer: 
+### Answer
+
 > False
 
 ## Problem 1-6
+
 It is always possible and feasible for a programmer to come up with test cases that run through every possible path in a program.
-### Answer: 
+
+### Answer
+
 > False
 
 ## Problem 1-7
+
 Assume f() is defined. In the statement a = f(), a is always a function.
 
-### Answer: 
-> False 
+### Answer
+
+> False
 
 ## Problem 1-8
+
 A program that keeps running and does not stop is an example of a syntax error.
-### Answer: 
+
+### Answer
+
 > False
 
 ## Problem 1-9
+
 Consider the following function.
 
 ```python
@@ -68,10 +90,14 @@ def f(x):
         f(x-1)
 ```
 
-### Answer: 
+### Answer
+
 > True
 
 ## Problem 1-10
+
 A tuple can contain a list as an element.
-### Answer: 
+
+### Answer
+
 > True

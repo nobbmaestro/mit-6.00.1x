@@ -1,57 +1,62 @@
-# Midterm Exam, Problem 4
+"""Test Midterm Exam, Problem 4."""
 
 import unittest
 
 from MidtermExam import lessThan4 as func
 
+
 class TestProblem4(unittest.TestCase):
+    """Test class for Problem 4."""
+
     def setUp(self):
+        """Set up TestProblem4."""
         self.test_data = {
-            0:  {
-                    'input':    ['SoQN', 'TjAhCfuvsY', 'jMz', 'doBLq'],                   
-                    'output':   ['jMz']
-                },
-            1:  {
-                    'input':    ['XlhU', 'CoeaY', '', 'pvdkyIQ', 'ZEkL', 'JLhFC', 'bZPPtiQS'],    
-                    'output':   ['']
-                },
-            2:  {
-                    'input':    ['UqNb', 'v', 'i', 'xHF', 'Htu'],    
-                    'output':   ['v', 'i', 'xHF', 'Htu']
-                },
-            3:  {
-                    'input':    ['Ug', 'M', 'YJvRqJYj', 'nDEU', 'tee'],    
-                    'output':   ['Ug', 'M', 'tee']
-                },
-            4:  {
-                    'input':    ['NN', '', 'sNUVJG', 'TaPX', 'AsZgyPJx', 'C', 'bIqe'],                                                    
-                    'output':   ['NN', '', 'C']
-                },
-            5:  {
-                    'input':    ['rZFEtuRgH'],                                                    
-                    'output':   []
-                },
-            6:  {
-                    'input':    ['BF', '', 'lttIEskQbH'],                                                    
-                    'output':   ['BF', '']
-                },
-            7:  {
-                    'input':    ['LiDXnJS', 'FQgO', 'XahX', 'tJTX', 'vK', 'oqDU', 'btTw', 'fAln', 'qwER', 'cB'],                                                    
-                    'output':   ['vK', 'cB']
-                },
-            8:  {
-                    'input':    ['RquV', 'F', 'wgyrtDYM', 'buWvwah', 'PeafQeni', 'SMUL', 'Nq', 'Task', 'zte', 'iIEd'],                                                    
-                    'output':   ['F', 'Nq', 'zte']
-                },
-            8:  {
-                    'input':    ['dVH', 'CTFevWGFA', 'yiLwgwCK', 'UkgD'],                                                    
-                    'output':   ['dVH']
-                },
+            0: {
+                'input': ['SoQN', 'TjAhCfuvsY', 'jMz', 'doBLq'],
+                'output': ['jMz']
+            },
+            1: {
+                'input': ['XlhU', 'CoeaY', '', 'pvdkyIQ', 'ZEkL', 'JLhFC', 'bZPPtiQS'],
+                'output': ['']
+            },
+            2: {
+                'input': ['UqNb', 'v', 'i', 'xHF', 'Htu'],
+                'output': ['v', 'i', 'xHF', 'Htu']
+            },
+            3: {
+                'input': ['Ug', 'M', 'YJvRqJYj', 'nDEU', 'tee'],
+                'output': ['Ug', 'M', 'tee']
+            },
+            4: {
+                'input': ['NN', '', 'sNUVJG', 'TaPX', 'AsZgyPJx', 'C', 'bIqe'],
+                'output': ['NN', '', 'C']
+            },
+            5: {
+                'input': ['rZFEtuRgH'],
+                'output': []
+            },
+            6: {
+                'input': ['BF', '', 'lttIEskQbH'],
+                'output': ['BF', '']
+            },
+            7: {
+                'input': ['LiDXnJS', 'FQgO', 'XahX', 'tJTX', 'vK', 'oqDU', 'btTw', 'fAln', 'qwER', 'cB'],
+                'output': ['vK', 'cB']
+            },
+            8: {
+                'input': ['RquV', 'F', 'wgyrtDYM', 'buWvwah', 'PeafQeni', 'SMUL', 'Nq', 'Task', 'zte', 'iIEd'],
+                'output': ['F', 'Nq', 'zte']
+            },
+            9: {
+                'input': ['dVH', 'CTFevWGFA', 'yiLwgwCK', 'UkgD'],
+                'output': ['dVH']
+            },
         }
 
     def test_output(self):
+        """Verifies Problem 4."""
         msg = 'Output at index {i} does not match expected output of \'{output}\''
-        for i in self.test_data.keys():
+        for i in self.test_data:
             arg1 = self.test_data[i]['input']
 
             result = func(arg1)
