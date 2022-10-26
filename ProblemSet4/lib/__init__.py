@@ -7,5 +7,15 @@ from .getFrequencyDict import getFrequencyDict
 from .loadWords import loadWords
 from .variables import CONSONANTS, HAND_SIZE, SCRABBLE_LETTER_VALUES, VOWELS
 
-__all__ = ("compChooseWord", "compPlayHand", "dealHand", "displayHand", "getFrequencyDict", "loadWords", "VOWELS",
-           "CONSONANTS", "HAND_SIZE", "SCRABBLE_LETTER_VALUES")
+__all__ = (
+    "compChooseWord",
+    "compPlayHand",
+    "dealHand",
+    "displayHand",
+    "getFrequencyDict",
+    "loadWords",
+    "VOWELS",
+    "CONSONANTS",
+    "HAND_SIZE",
+    "SCRABBLE_LETTER_VALUES",
+)

@@ -5,4 +5,9 @@ from .problem2 import getGuessedWord
 from .problem3 import getAvailableLetters
 from .problem4 import hangman
 
-__all__ = ("isWordGuessed", "getGuessedWord", "getAvailableLetters", "hangman")
+__all__ = (
+    "isWordGuessed",
+    "getGuessedWord",
+    "getAvailableLetters",
+    "hangman",
+)

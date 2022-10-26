@@ -5,4 +5,10 @@ from .problem5 import cipher
 from .problem6 import USResident
 from .problem7 import myDict
 
-__all__ = ("McNuggets", "primes_list", "cipher", "USResident", "myDict")
+__all__ = (
+    "McNuggets",
+    "primes_list",
+    "cipher",
+    "USResident",
+    "myDict",
+)

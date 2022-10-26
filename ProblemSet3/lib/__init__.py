@@ -2,4 +2,7 @@
 from .chooseWord import chooseWord
 from .loadWords import loadWords
 
-__all__ = ("chooseWord", "loadWords")
+__all__ = (
+    "chooseWord",
+    "loadWords",
+)

@@ -5,4 +5,10 @@ from .problem5 import uniqueValues
 from .problem6 import flatten
 from .problem7 import score
 
-__all__ = ("twoQuadratics", "lessThan4", "uniqueValues", "flatten", "score")
+__all__ = (
+    "twoQuadratics",
+    "lessThan4",
+    "uniqueValues",
+    "flatten",
+    "score",
+)

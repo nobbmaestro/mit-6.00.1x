@@ -5,4 +5,10 @@ from .problem3 import isValidWord
 from .problem4 import calculateHandLen
 from .problem5 import playHand
 
-__all__ = ("getWordScore", "updateHand", "isValidWord", "calculateHandLen", "playHand")
+__all__ = (
+    "getWordScore",
+    "updateHand",
+    "isValidWord",
+    "calculateHandLen",
+    "playHand",
+)
