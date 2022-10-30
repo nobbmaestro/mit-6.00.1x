@@ -9,7 +9,7 @@ class TestProblem4(unittest.TestCase):
     """Test class for Problem 4."""
 
     def setUp(self):
-        """Set up TestProblem3."""
+        """Set up TestProblem4."""
         self.test_data = {
             0: {
                 'input':
